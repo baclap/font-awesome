@@ -1,0 +1,7 @@
+{
+  "name": "font-awesome#gh-pages",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "baclap/font-awesome#master"
+  }
+}

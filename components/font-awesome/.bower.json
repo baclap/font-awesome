@@ -1,0 +1,26 @@
+{
+  "name": "font-awesome",
+  "keywords": [
+    "seed",
+    "polymer",
+    "web-components"
+  ],
+  "main": "font-awesome.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0"
+  },
+  "homepage": "https://github.com/baclap/font-awesome",
+  "_release": "b9e75f79a7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b9e75f79a76882beea9a0ff3268d73c1849d5d11"
+  },
+  "_source": "git://github.com/baclap/font-awesome.git",
+  "_target": "master",
+  "_originalSource": "baclap/font-awesome",
+  "_direct": true
+}

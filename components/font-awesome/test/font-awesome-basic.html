@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>font-awesome</title>
+
+  <script src="../../webcomponentsjs/webcomponents.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+
+  <!-- Step 1: import the element to test -->
+  <link rel="import" href="../font-awesome.html">
+
+</head>
+<body>
+
+  <font-awesome id="fixture" icon="heart"></font-awesome>
+
+  <script>
+    var myEl = document.getElementById('fixture');
+
+    suite('<font-awesome>', function() {
+
+      test('defines the "icon" property', function() {
+        assert.equal(myEl.icon, 'heart');
+      });
+
+    });
+  </script>
+
+</body>
+</html>
